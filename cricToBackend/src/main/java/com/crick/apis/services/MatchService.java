@@ -16,5 +16,5 @@ public interface MatchService {
     List<Match> getLiveMatches();
     // get cwc2023 point table Endpoints
 
-    List<Map<String, String>> getPointTable();
+    List<List<String>> getPointTable();
 }
